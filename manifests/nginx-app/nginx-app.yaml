@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/mazherarsh/ArgoCD.git
     targetRevision: main
-    path: my-app
+    path: manifests/nginx-app
   destination:
     server: https://kubernetes.default.svc
     namespace: default
