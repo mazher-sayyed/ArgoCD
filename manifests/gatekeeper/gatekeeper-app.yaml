@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-repo/your-config-repo'
+    repoURL: 'https://github.com/mazherarsh/ArgoCD.git'
     targetRevision: HEAD
     path: gatekeeper
   destination:
