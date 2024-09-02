@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/mazherarsh/ArgoCD.git'
     targetRevision: HEAD
-    path: gatekeeper
+    path: manifests/gatekeeper
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: gatekeeper-system
