@@ -6,6 +6,6 @@ spec:
   match:
     kinds:
       - apiGroups: [""]
-        kinds: ["namespace"]
+        kinds: ["Namespace"]
   parameters:
     labels: ["gatekeeper"]
