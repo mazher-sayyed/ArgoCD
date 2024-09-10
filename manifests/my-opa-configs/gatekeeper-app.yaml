@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/mazherarsh/ArgoCD.git'
+    repoURL: 'https://github.com/mazherarsh/ArgoCD/tree/main/manifests/my-opa-configs'
     targetRevision: HEAD
     path: manifests/opa-gatekeeper
   destination:
